@@ -10,14 +10,13 @@ $(document).ready(function(){
 
         const novaTarefa = $('#novaTarefa').val()
         const novoItem = $('<li></li>')
-        const tabela = $('ul')
 
         $(`<p>${novaTarefa}</p>`).appendTo(novoItem)
 
         $(novoItem).appendTo('ul');
         $('#novaTarefa').val('');
 
-        $(tabela).on('click', function(e){
+        novoItem.on('click', function(e){
             if(e.target.classList.contains('checar')){
                 e.target.classList.remove('checar')
             } else {

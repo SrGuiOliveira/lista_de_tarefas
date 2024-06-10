@@ -1,0 +1,76 @@
+body {
+    
+    background: rgb(20, 26, 27);
+    font: normal 15pt Arial;
+
+}
+
+header {
+    padding: 50px 0;
+    color: #fff;
+    text-align: center;
+
+}
+
+h1{
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+
+section {
+    
+    background: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.315);
+    text-align: center;
+
+}
+
+input {
+    border-radius: 4px;
+}
+
+
+#novaTarefa {
+    width: 300px;
+    padding: 6px;
+
+}
+
+.checar {
+    text-decoration: line-through;
+}
+
+#layout {
+    opacity: 0.5;
+}
+
+#novaTarefa::placeholder {
+    text-transform: uppercase;
+}
+
+#botao {
+    width: 100px;
+    padding: 6px;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: rgb(82, 196, 82);
+    font-weight: bold;
+}
+
+ul li {
+    cursor: pointer;
+}
+
+footer {
+
+    color: #fff;
+    text-align: center;
+    font-style: italic;
+
+}
